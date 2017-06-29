@@ -1,0 +1,79 @@
+body#pentagon {
+    background-image: url(/Users/ross/bootstrap-portfolio-master/assets-bootstrap/images-bootstrap/pentagon.png);
+    display: block;
+}
+
+.portfolioHeader {
+    font-family: georgia, serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: 5px;
+    border-bottom-color: black;
+}
+
+.container {
+    margin: 100px;
+    padding: 2px;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    display: block;
+    background-color: pink;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+img {
+    padding-bottom: 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img.img-circle {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+.sectionFive,
+{}
+
+
+/*Connect With Me box CSS*/
+
+.container .col-md-3 .center-block .text-center {
+    float: right;
+    margin-left: 25px;
+}
+
+.form-control {
+    padding: 25px;
+}
+
+.btn-success {
+    margin: 10px;
+}
+
+
+/* Small devices (tablets, px and up) */
+
+@media (min-width:640px @screen-xs-min) {
+    .container .col-md-6 .center-block .text-center {}
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px @screen-sm-min) {
+    .container .col-md-6 .center-block .text-center {}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width:980px @screen-md-min) {
+    .container .col-md-6 .center-block .text-center {}
+}
